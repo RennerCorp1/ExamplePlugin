@@ -26,14 +26,3 @@ class MainClass extends PluginBase implements Listener{
 	public function onDisable(){
 		$this->getLogger()->info(TextFormat::DARK_RED . "I've been disabled!");
 	}
-
-
-   public function ScoreboardStats()
-     $this->$Name = $players->getPlayer()->getName();
- 		 $this->$Money = $this->EconomyS->mymoney($Name);
-      $this->$Death = PlayerDeathEvent->Death(Death);
-      $this->$Kills = PlayerKillsEvent->Kills(Kills)
-      $this->$players->sendTip(" §b« §7ScoreKill §b »\n §eMEMBER:§b $Name !\n §aMoney:§f $Money §e\Kills:  $Kills \ Death: $Death ");
-    
-	
-}
